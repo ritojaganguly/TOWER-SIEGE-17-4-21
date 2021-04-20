@@ -117,3 +117,7 @@ function mouseDragged(){
 function mouseReleased(){
     slingShot.fly();
 }
+
+function keyPressed(){
+    if(keyCode === 32){
+    slingshot.attach(player.body); }
